@@ -3,3 +3,8 @@ uvicorn
 reportlab
 pydantic
 email-validator
+httpx
+stripe
+python-dotenv
+resend
+twilio

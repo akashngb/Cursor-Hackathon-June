@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "phone-capture",
+    "slug": "phone-capture",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need the camera to capture and watermark wedding photos.",
+        "NSPhotoLibraryUsageDescription": "We need photo library access to save captured photos."
+      }
+    },
+    "android": {
+      "permissions": ["android.permission.CAMERA"]
+    },
+    "plugins": ["expo-camera"]
+  }
+}
