@@ -11,7 +11,7 @@ pip install -r requirements.txt
 cp .env .env.local  # .env is git-ignored, holds your test keys
 uvicorn main:app --reload
 ```
-
+ 
 Env vars (see `.env`):
 - `STRIPE_SECRET_KEY` — test mode (`sk_test_…`). Without it, Stripe is stubbed.
 - `STRIPE_PUBLISHABLE_KEY` — kept for the client side.
